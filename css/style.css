@@ -1,0 +1,424 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+header{display: block;}
+body{text-align:center;background: #000;color:#fff;}
+img{float;left;width:150px;height:150px;margin:15px;}
+header{display:block;width:100%;font-family: 'Press Start 2P', cursive; color:green; }
+#container{padding-top:100px;margin: 0 auto;}
+.block p{color:#07bffc}
+.block p:first-child:before{color:green;content: open-quote;}
+.block p:first-child:after{color:green;content: close-quote;}
+.block img{cursor: pointer;}
+.block p span{color: green; font-size:10px;}
+/*Terminal*/
+header .h4 a{color: #11c6fd}
+#info{color:#0FBA06;}
+#type {text-align:center;color:#0FBA06;}
+a{color:#0fBA06}
+p{color:green;}
+#title{
+width:200px;
+display:block;
+float:left;
+font-weight:bold;
+text-shadow: 1px 1px 0px rgba(255,255,255,.6),                  
+				 0px 0px 4px rgba(255,255,255,.3);
+margin-top:-10px;
+text-align:center;
+margin-left:80px;
+padding-top:20px;    
+font-size:14px;    
+color:#666;
+text-shadow:-1px 1px épx #999;
+}
+.toggleDiv{color:yellow;}
+::selection {
+	background: #f10e8b; /* Safari */
+	}
+::-moz-selection {
+	background: #f10e8b; /* Firefox */
+}
+.terminal {
+    /*box-shadow*/
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.32);
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/; background-clip:padding-box;
+    /*@@prefixmycss->No equivalent*/
+    : ;
+    /*border-radius*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 50px auto 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    
+}
+.terminal .top-bar {
+    background: #d4d4d4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#bcbcbc));
+    /*linear-gradient*/
+    background: -webkit-gradient(linear,left top,left bottom,from(#e9e9e9),to(#bcbcbc));
+    background: -webkit-linear-gradient(#e9e9e9, #bcbcbc);
+    background: -moz-linear-gradient(#e9e9e9, #bcbcbc);
+    background: -o-linear-gradient(#e9e9e9, #bcbcbc);
+    background: linear-gradient(#e9e9e9, #bcbcbc);
+    background: -webkit-linear-gradient(center top, #e9e9e9 0%, #bcbcbc 100%);
+    background: -moz-linear-gradient(center top, #e9e9e9 0%, #bcbcbc 100%);
+    background: -o-linear-gradient(center top, #e9e9e9 0%, #bcbcbc 100%);
+    background: linear-gradient(center top, #e9e9e9 0%, #bcbcbc 100%);
+    background: -moz-gradient(center top, #e9e9e9 0%, #bcbcbc 100%);
+    background: -webkit-linear-gradient(#e9e9e9 0%, #bcbcbc 100%);
+    background: -moz-linear-gradient(#e9e9e9 0%, #bcbcbc 100%);
+    background: -o-linear-gradient(#e9e9e9 0%, #bcbcbc 100%);
+    background: linear-gradient(#e9e9e9 0%, #bcbcbc 100%);
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/; background-clip:padding-box;
+    /*@@prefixmycss->No equivalent*/
+    /*border-radius*/
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    height: 25px;
+    padding-left: 12px;
+}
+.terminal .center-bar {
+    background: #d8d9d9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e5e6e6), to(#cfcfcf));
+    /*linear-gradient*/
+    background: -webkit-gradient(linear,left top,left bottom,from(#e5e6e6),to(#cfcfcf));
+    background: -webkit-linear-gradient(#e5e6e6, #cfcfcf);
+    background: -moz-linear-gradient(#e5e6e6, #cfcfcf);
+    background: -o-linear-gradient(#e5e6e6, #cfcfcf);
+    background: linear-gradient(#e5e6e6, #cfcfcf);
+    background: -webkit-linear-gradient(center top, #e5e6e6 0%, #cfcfcf 100%);
+    background: -moz-linear-gradient(center top, #e5e6e6 0%, #cfcfcf 100%);
+    background: -o-linear-gradient(center top, #e5e6e6 0%, #cfcfcf 100%);
+    background: linear-gradient(center top, #e5e6e6 0%, #cfcfcf 100%);
+    background: -moz-gradient(center top, #e5e6e6 0%, #cfcfcf 100%);
+    background: -webkit-linear-gradient(#e5e6e6 0%, #cfcfcf 100%);
+    background: -moz-linear-gradient(#e5e6e6 0%, #cfcfcf 100%);
+    background: -o-linear-gradient(#e5e6e6 0%, #cfcfcf 100%);
+    background: linear-gradient(#e5e6e6 0%, #cfcfcf 100%);
+    /*box-shadow*/
+    -webkit-box-shadow: inset 0 1px 0 #f9f9f9;
+    -moz-box-shadow: inset 0 1px 0 #f9f9f9;
+    box-shadow: inset 0 1px 0 #f9f9f9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #7a7a7a;
+    height: 30px; 
+    padding: 5px 12px 0;
+}
+.terminal .window {
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/; background-clip:padding-box;
+    /*@@prefixmycss->No equivalent*/
+    : ;
+    /*border-radius*/
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    height: auto;
+    background: #000;
+    padding:10px;
+}
+.window {
+border:8px solid #bdbdbd;}
+.terminal .orb {
+    /*box-shadow*/
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.85), 0 1px 0 rgba(255, 255, 255, 0.7);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.85), 0 1px 0 rgba(255, 255, 255, 0.7);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.85), 0 1px 0 rgba(255, 255, 255, 0.7);
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/; background-clip:padding-box;
+    /*@@prefixmycss->No equivalent*/
+    : ;
+    /*border-radius*/
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    display: block;
+    float: left;
+    margin: 13px 8px 0 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    overflow: hidden;
+    color: transparent;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+}
+.orb a,
+#btn a {
+    color: transparent;
+    font-size: 10px;
+    text-align: center;
+}
+.terminal .orb:after {
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/; background-clip:padding-box;
+    /*@@prefixmycss->No equivalent*/
+    : ;
+    /*border-radius*/
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0)));
+    /*linear-gradient*/
+    background: -webkit-gradient(linear,left top,left bottom,from(white),to(rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(white, rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(white, rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(white, rgba(255, 255, 255, 0));
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+    background: -webkit-linear-gradient(center top, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: -moz-linear-gradient(center top, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(center top, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(center top, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: -moz-gradient(center top, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(white 0%, rgba(255, 255, 255, 0) 100%);
+    background: -moz-linear-gradient(white 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(white 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(white 0%, rgba(255, 255, 255, 0) 100%);
+    content: '';
+    display: block;
+    height: 3px;
+    width: 6px;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+.terminal .orb:before {
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/; background-clip:padding-box;
+    /*@@prefixmycss->No equivalent*/
+    : ;
+    /*border-radius*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /*box-shadow*/
+    -webkit-box-shadow: 0 0 5px white;
+    -moz-box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px white;
+    content: '';
+    display: block;
+    height: 10px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.terminal .orb.red {
+    background: #f0554d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e63933), to(#f3736b));
+    /*linear-gradient*/
+    background: -webkit-gradient(linear,left top,left bottom,from(#e63933),to(#f3736b));
+    background: -webkit-linear-gradient(#e63933, #f3736b);
+    background: -moz-linear-gradient(#e63933, #f3736b);
+    background: -o-linear-gradient(#e63933, #f3736b);
+    background: linear-gradient(#e63933, #f3736b);
+    background: -webkit-linear-gradient(center top, #e63933 0%, #f3736b 100%);
+    background: -moz-linear-gradient(center top, #e63933 0%, #f3736b 100%);
+    background: -o-linear-gradient(center top, #e63933 0%, #f3736b 100%);
+    background: linear-gradient(center top, #e63933 0%, #f3736b 100%);
+    background: -moz-gradient(center top, #e63933 0%, #f3736b 100%);
+    background: -webkit-linear-gradient(#e63933 0%, #f3736b 100%);
+    background: -moz-linear-gradient(#e63933 0%, #f3736b 100%);
+    background: -o-linear-gradient(#e63933 0%, #f3736b 100%);
+    background: linear-gradient(#e63933 0%, #f3736b 100%);
+}
+.terminal .orb.green {
+    background: #7dbb5d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7dbb5d), to(#afdb92));
+    /*linear-gradient*/
+    background: -webkit-gradient(linear,left top,left bottom,from(#7dbb5d),to(#afdb92));
+    background: -webkit-linear-gradient(#7dbb5d, #afdb92);
+    background: -moz-linear-gradient(#7dbb5d, #afdb92);
+    background: -o-linear-gradient(#7dbb5d, #afdb92);
+    background: linear-gradient(#7dbb5d, #afdb92);
+    background: -webkit-linear-gradient(center top, #7dbb5d 0%, #afdb92 100%);
+    background: -moz-linear-gradient(center top, #7dbb5d 0%, #afdb92 100%);
+    background: -o-linear-gradient(center top, #7dbb5d 0%, #afdb92 100%);
+    background: linear-gradient(center top, #7dbb5d 0%, #afdb92 100%);
+    background: -moz-gradient(center top, #7dbb5d 0%, #afdb92 100%);
+    background: -webkit-linear-gradient(#7dbb5d 0%, #afdb92 100%);
+    background: -moz-linear-gradient(#7dbb5d 0%, #afdb92 100%);
+    background: -o-linear-gradient(#7dbb5d 0%, #afdb92 100%);
+    background: linear-gradient(#7dbb5d 0%, #afdb92 100%);
+}
+.terminal .orb.yellow {
+    background: #fda12e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fda12e), to(#ffcc64));
+    /*linear-gradient*/
+    background: -webkit-gradient(linear,left top,left bottom,from(#fda12e),to(#ffcc64));
+    background: -webkit-linear-gradient(#fda12e, #ffcc64);
+    background: -moz-linear-gradient(#fda12e, #ffcc64);
+    background: -o-linear-gradient(#fda12e, #ffcc64);
+    background: linear-gradient(#fda12e, #ffcc64);
+    background: -webkit-linear-gradient(center top, #fda12e 0%, #ffcc64 100%);
+    background: -moz-linear-gradient(center top, #fda12e 0%, #ffcc64 100%);
+    background: -o-linear-gradient(center top, #fda12e 0%, #ffcc64 100%);
+    background: linear-gradient(center top, #fda12e 0%, #ffcc64 100%);
+    background: -moz-gradient(center top, #fda12e 0%, #ffcc64 100%);
+    background: -webkit-linear-gradient(#fda12e 0%, #ffcc64 100%);
+    background: -moz-linear-gradient(#fda12e 0%, #ffcc64 100%);
+    background: -o-linear-gradient(#fda12e 0%, #ffcc64 100%);
+    background: linear-gradient(#fda12e 0%, #ffcc64 100%);
+}
+.links {
+    text-align: center;
+    margin-top: 30px;
+}
+.links a { color: #6cbbbc }
+.links .button {
+    background: #6cbbbc;
+    font-weight: bold;
+    display: inline-block;
+    /*background-clip*/
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: /*@@prefixmycss->No equivalent*/; background-clip:padding-box;
+    /*@@prefixmycss->No equivalent*/
+    /*border-radius*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.links .button:hover { background: #4da7a8 }
+/* Display text on the window */
+.url span:after {
+    content: " is not accessible for the moment, try later.";
+    color: #FFF;
+}
+.url:focus > span {
+    color: #000;
+    position: absolute;
+    text-shadow: 0px 60px 2px #686868;
+    z-index: 200;
+}
+/* Show picto's on the orbs */
+.orb a:hover,
+#btn a:hover {
+    color: #000;
+    font-weight: bold;
+}
+.orb.red:active>.cl {
+    background: #f2f2f2;
+    width: 90000px;
+    height: 900000px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.orb.yellow:active>.cl {
+    background: #f2f2f2;
+    width: 90000px;
+    height: 900000px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999999;
+}
+.orb.green:active  .window {
+    background: #AAAAAA;
+    width: 90000px;
+    height: 900000px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999999;
+}
+#screen{background:#000;padding:10px;font-family:courier;}
+pre{color:#0baff5;}
+#type, #type2, #type3, #type4, #type5, #type6, #type7, #type9, #type10, #type11, #type12, #type13, #type14, #type15, #type16, #type17, #type18, #type19, #type20, #type21, #type22, #type23, #type24, #type25{font-size: 16px;}
+#type8{font-size: 24px;}
+#type3, #type6, #type9, #type10, #type11, #type15, #type19, #type24, #type25 {color:#0baff5;}
+/**** Transitions ****/
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+/*Documentation Pop Up box*/
+    #popupClose{    
+        font-size:20px;    
+        line-height:20px;    
+        position:absolute;  
+        rightright:6px;    
+        top:4px;    
+        font-weight:700;   
+        display:block;
+        color: #0b85f7;
+        cursor: pointer;    
+    } 
+    #bgPopup{  
+        display:none;   
+        position:fixed;    
+        _position:absolute;   
+        height:100%;    
+        width:100%;    
+        top:0;    
+        left:0;    
+        background:#000000;     
+        z-index:9999;    
+    }    
+      
+    #Popup{    
+        display:none;    
+        position:relative;    
+        _position:absolute;  
+        background:000;    
+        border:2px solid #cecece;    
+        z-index:999999;    
+        padding:12px;    
+        font-size:13px;
+        color: #fff;    
+    }   
+       
+    #myButton{  
+        display:block;  
+        position:relative;  
+        width:200px;  
+        height:50px;  
+        line-height:50px;  
+        font-family:"Trebuchet MS";  
+        font-size:14px  
+        text-align:center;    
+    }  
